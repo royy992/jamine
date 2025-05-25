@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moments of My Life</title>
+    <style>
+        body {
+            background: url('https://wallpapercave.com/wp/wp8013719.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .navbar {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 85%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .navbar td {
+            font-size: 17px;
+            color: #222;
+            padding: 15px 25px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+        }
+        .moments-content {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 90%;
+            padding: 40px 30px 30px 30px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .moments-content h2 {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 2rem;
+            color: #4e8cff;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            background: #f7f7f7;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 900px) {
+            .moments-content, .navbar {
+                width: 98%;
+                padding: 10px;
+            }
+            .gallery img {
+                width: 48vw;
+                max-width: 220px;
+                height: 140px;
+            }
+        }
+        @media (max-width: 600px) {
+            .moments-content, .navbar {
+                width: 100%;
+                padding: 4px;
+            }
+            .gallery img {
+                width: 98vw;
+                max-width: 98vw;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="navbar" align="center" cellpadding="15">
+        <tr align="center">
+            <td><a href="home.html">HOME</a></td>
+            <td><a href="about.html">ABOUT</a></td>
+            <td><a href="gallery.html">GALLERY</a></td>
+            <td><a href="interest.html">INTEREST</a></td>
+            <td><a href="contact.html">CONTACT</a></td>
+            <td align="right" style="padding-right: 20px;">⚙️</td>
+        </tr>
+    </table>
+
+    <div class="moments-content">
+        <h2>Moments of My Life</h2>
+        <div class="gallery">
+            <img src="images/momment1.jpeg" alt="Moment 1">
+            <img src="images/IMG_20241226_011704.jpg" alt="Moment 2">
+            <img src="images/1725703506634.jpg" alt="Moment 3">
+            <img src="images/4.jpg" alt="Moment 4">
+            <img src="images/IMG_20220720_142502.jpg" alt="Moment 5">
+            <img src="images/6.jpeg" alt="Moment 6">
+            <img src="images/7.jpg" alt="Moment 7">
+            <img src="images/IMG_20250308_143942.jpg" alt="Moment 8">
+            <img src="images/received_1348321149652559.jpeg" alt="Moment 9">
+            <img src="images/received_997169655893327.jpeg" alt="Moment 10">
+            <img src="images/11.jpg" alt="Moment 11">
+            <img src="images/Messenger_creation_A98E2197-11AE-4144-8DA7-CA1E01588324.jpeg" alt="Moment 12">
+        </div>
+    </div>
+</body>
+</html>

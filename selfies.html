@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selfies</title>
+    <style>
+        body {
+            background: url('https://wallpapercave.com/wp/wp8013719.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .navbar {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 85%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .navbar td {
+            font-size: 17px;
+            color: #222;
+            padding: 15px 25px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+        }
+        .selfies-content {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 90%;
+            padding: 40px 30px 30px 30px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .selfies-content h2 {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 2rem;
+            color: #4e8cff;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            background: #f7f7f7;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 900px) {
+            .selfies-content, .navbar {
+                width: 98%;
+                padding: 10px;
+            }
+            .gallery img {
+                width: 48vw;
+                max-width: 220px;
+                height: 140px;
+            }
+        }
+        @media (max-width: 600px) {
+            .selfies-content, .navbar {
+                width: 100%;
+                padding: 4px;
+            }
+            .gallery img {
+                width: 98vw;
+                max-width: 98vw;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="navbar" align="center" cellpadding="15">
+        <tr align="center">
+            <td><a href="home.html">HOME</a></td>
+            <td><a href="about.html">ABOUT</a></td>
+            <td><a href="gallery.html">GALLERY</a></td>
+            <td><a href="interest.html">INTEREST</a></td>
+            <td><a href="contact.html">CONTACT</a></td>
+            <td align="right" style="padding-right: 20px;">⚙️</td>
+        </tr>
+    </table>
+
+    <div class="selfies-content">
+        <h2>Selfies</h2>
+        <div class="gallery">
+            <img src="images/IMG_20250308_143942.jpg" alt="Selfie 1">
+            <img src="images/IMG_20250130_134124.jpg" alt="Selfie 2">
+            <img src="images/IMG_20250313_160732.jpg" alt="Selfie 3">
+            <img src="images/28.jpeg" alt="Selfie 4">
+            <img src="images/29.jpg" alt="Selfie 5">
+            <img src="images/30.jpeg" alt="Selfie 6">
+            <img src="images/31.jpeg" alt="Selfie 7">
+            <img src="images/received_370200058800911.jpeg" alt="Selfie 8">
+            <img src="images/Messenger_creation_4569547B-6CF3-43FA-A4C9-F894AABA27EB.jpeg" alt="Selfie 9">
+            <img src="images/IMG_20250419_134436.jpg" alt="Selfie 10">
+            <img src="images/IMG_20250409_141430.jpg" alt="Selfie 11">
+            <img src="images/IMG_20250408_085312.jpg" alt="Selfie 12">
+        </div>
+    </div>
+</body>
+</html>

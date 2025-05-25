@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Shots</title>
+    <style>
+        body {
+            background: url('https://wallpapercave.com/wp/wp8013719.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .navbar {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 85%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .navbar td {
+            font-size: 17px;
+            color: #222;
+            padding: 15px 25px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+        }
+        .random-content {
+            background: #fff;
+            border-radius: 30px;
+            margin: 40px auto 0 auto;
+            width: 90%;
+            padding: 40px 30px 30px 30px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .random-content h2 {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 2rem;
+            color: #4e8cff;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            background: #f7f7f7;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 900px) {
+            .random-content, .navbar {
+                width: 98%;
+                padding: 10px;
+            }
+            .gallery img {
+                width: 48vw;
+                max-width: 220px;
+                height: 140px;
+            }
+        }
+        @media (max-width: 600px) {
+            .random-content, .navbar {
+                width: 100%;
+                padding: 4px;
+            }
+            .gallery img {
+                width: 98vw;
+                max-width: 98vw;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="navbar" align="center" cellpadding="15">
+        <tr align="center">
+            <td><a href="home.html">HOME</a></td>
+            <td><a href="about.html">ABOUT</a></td>
+            <td><a href="gallery.html">GALLERY</a></td>
+            <td><a href="interest.html">INTEREST</a></td>
+            <td><a href="contact.html">CONTACT</a></td>
+            <td align="right" style="padding-right: 20px;">⚙️</td>
+        </tr>
+    </table>
+
+    <div class="random-content">
+        <h2>Random Shots</h2>
+        <div class="gallery">
+            <img src="images/IMG_20220317_171506.jpg" alt="Random 1">
+            <img src="images/38.jpg" alt="Random 2">
+            <img src="images/IMG_20250413_160854_915.webp" alt="Random 3">
+            <img src="images/Messenger_creation_A98E2197-11AE-4144-8DA7-CA1E01588324.jpeg" alt="Random 4">
+            <img src="images/IMG_20250420_124414.jpg" alt="Random 5">
+            <img src="images/IMG_20250421_195312.jpg" alt="Random 6">
+            <img src="images/IMG_20250424_102013.jpg" alt="Random 7">
+            <img src="images/IMG_20250421_194509.jpg" alt="Random 8">
+            <img src="images/1725094008317.jpg" alt="Random 9">
+            <img src="images/IMG_20241001_132159.jpg" alt="Random 10">
+            <img src="images/Random11.jpg" alt="Random 11">
+            <img src="images/1722520928682.jpg" alt="Random 12">
+        </div>
+    </div>
+</body>
+</html>
